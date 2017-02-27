@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.weatherapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="42sp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:padding="4dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="20dp"
+            android:text="Now:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/now_text_quantity"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="4dp"
+            android:text="45*"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginLeft="20dp"
+            android:text="Today:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/today_high_text_quantity"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginLeft="4dp"
+            android:text="56*"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:text="/"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/today_low_text_quantity"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:text="40*"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginLeft="20dp"
+            android:text="Tomorrow: "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tmrw_high_text_quantity"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginLeft="4dp"
+            android:text="70*"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:text="/"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tmrw_low_text_quantity"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:text="40*"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginLeft="20dp"
+            android:text="Thursday: "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/more_high_text_quantity"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginLeft="4dp"
+            android:text="45*"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:text="/"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/more_low_text_quantity"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:text="42*"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
